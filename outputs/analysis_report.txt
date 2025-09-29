@@ -1,0 +1,110 @@
+================================================================================
+COVID-19 RESEARCH PAPERS ANALYSIS REPORT
+================================================================================
+Generated on: 2025-09-29 16:11:04
+
+EXECUTIVE SUMMARY
+----------------------------------------
+This report presents an analysis of 465,820 COVID-19 research papers
+from the CORD-19 dataset. The analysis covers publication trends, journal
+distribution, and keyword frequency from research conducted between 2019-2024.
+
+DATASET OVERVIEW
+----------------------------------------
+Original records: 1,056,660
+Records after cleaning: 465,820
+Data retention rate: 44.1%
+Columns in final dataset: 24
+Time period covered: 2019-2024
+
+KEY FINDINGS
+----------------------------------------
+1. PUBLICATION TRENDS:
+   - Peak publication year: 2021 (215,346 papers)
+   - Year-by-year breakdown:
+     2019: 5,570 papers
+     2020: 160,732 papers
+     2021: 215,346 papers
+     2022: 84,170 papers
+     2023: 1 papers
+     2024: 1 papers
+
+2. JOURNAL ANALYSIS:
+   - Unique journals: 16,863
+   - Top 10 publishing journals:
+      1. Unknown Journal: 35,244 papers (7.6%)
+      2. bioRxiv: 8,187 papers (1.8%)
+      3. Int J Environ Res Public Health: 8,149 papers (1.7%)
+      4. PLoS One: 5,432 papers (1.2%)
+      5. Sci Rep: 3,567 papers (0.8%)
+      6. Reactions Weekly: 3,340 papers (0.7%)
+      7. Front Psychol: 3,262 papers (0.7%)
+      8. BMJ: 2,971 papers (0.6%)
+      9. Cureus: 2,954 papers (0.6%)
+     10. Front Immunol: 2,524 papers (0.5%)
+
+3. KEYWORD ANALYSIS:
+   - Most frequent words in titles:
+      1. covid: 197,207 times (42.3% of papers)
+      2. pandemic: 53,630 times (11.5% of papers)
+      3. sars: 49,500 times (10.6% of papers)
+      4. cov: 48,181 times (10.3% of papers)
+      5. during: 46,392 times (10.0% of papers)
+      6. patients: 44,728 times (9.6% of papers)
+      7. study: 38,708 times (8.3% of papers)
+      8. health: 31,996 times (6.9% of papers)
+      9. disease: 24,572 times (5.3% of papers)
+     10. analysis: 23,298 times (5.0% of papers)
+     11. care: 22,430 times (4.8% of papers)
+     12. review: 22,357 times (4.8% of papers)
+     13. infection: 21,252 times (4.6% of papers)
+     14. based: 21,235 times (4.6% of papers)
+     15. coronavirus: 19,369 times (4.2% of papers)
+
+4. DATA QUALITY ASSESSMENT:
+   - Field completeness rates:
+     title: 100.0%
+     abstract: 100.0%
+     journal: 100.0%
+     authors: 100.0%
+     publish_time: 100.0%
+     doi: 96.5%
+
+RESEARCH INSIGHTS
+----------------------------------------
+- Papers explicitly mentioning COVID/Coronavirus: 209,539 (45.0%)
+- Papers with abstracts: 375,304 (80.6%)
+- Average abstract length: 173.4 words
+- Average title length: 13.6 words
+
+METHODOLOGY
+----------------------------------------
+1. Data Loading: Extracted metadata.csv from CORD-19 dataset
+2. Data Cleaning: Removed duplicates, handled missing values, filtered invalid dates
+3. Analysis: Computed publication trends, journal rankings, word frequencies
+4. Visualization: Created charts for trends, distributions, and word clouds
+5. Dashboard: Built interactive Streamlit application for exploration
+
+FILES GENERATED
+----------------------------------------
+- data/metadata_clean.csv: Cleaned dataset
+- outputs/figures/publications_by_year.png: Publication timeline
+- outputs/figures/top_journals.png: Top journals chart
+- outputs/figures/word_frequency.png: Word frequency analysis
+- outputs/figures/wordcloud.png: Title word cloud
+- outputs/figures/analysis_dashboard.png: Summary dashboard
+- streamlit_app.py: Interactive web application
+- outputs/analysis_report.txt: This report
+
+RECOMMENDATIONS FOR FURTHER ANALYSIS
+----------------------------------------
+1. Conduct sentiment analysis on abstracts to gauge research outlook
+2. Analyze collaboration patterns between authors and institutions
+3. Perform topic modeling to identify research themes
+4. Study citation patterns and impact factors
+5. Analyze geographic distribution of research
+6. Compare pre-pandemic vs pandemic research trends
+
+================================================================================
+END OF REPORT
+================================================================================
